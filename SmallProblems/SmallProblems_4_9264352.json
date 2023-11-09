@@ -1,0 +1,121 @@
+
+
+{
+ "planningWindow": "500",
+ "numOfSattelites": "2",
+ "numOfUsers": "4",
+ "numOfRequestsPerUser": "1",
+ "numOfObservationsPerRequest": "2",
+ "satellites": [
+{
+  "id": "0",
+  "capacity": "8",
+  "orbitStartTime": "0",
+  "orbitEndTime": "500"
+},
+{
+  "id": "1",
+  "capacity": "8",
+  "orbitStartTime": "0",
+  "orbitEndTime": "500"
+},
+],
+ "users": [
+{
+  "id": "0",
+ "requests": [
+{
+  "id": "0",
+ "observations": [
+{
+  "id": "0",
+  "reward": "12",
+  "satellateId": "0",
+  "startTime": "143",
+  "endTime": "158"
+},
+{
+  "id": "1",
+  "reward": "37",
+  "satellateId": "1",
+  "startTime": "155",
+  "endTime": "173"
+},
+],
+},
+],
+},
+{
+  "id": "1",
+ "requests": [
+{
+  "id": "0",
+ "observations": [
+{
+  "id": "0",
+  "reward": "18",
+  "satellateId": "0",
+  "startTime": "132",
+  "endTime": "150"
+},
+{
+  "id": "1",
+  "reward": "19",
+  "satellateId": "1",
+  "startTime": "134",
+  "endTime": "150"
+},
+],
+},
+],
+},
+{
+  "id": "2",
+ "requests": [
+{
+  "id": "0",
+ "observations": [
+{
+  "id": "0",
+  "reward": "30",
+  "satellateId": "1",
+  "startTime": "65",
+  "endTime": "79"
+},
+{
+  "id": "1",
+  "reward": "43",
+  "satellateId": "0",
+  "startTime": "243",
+  "endTime": "255"
+},
+],
+},
+],
+},
+{
+  "id": "3",
+ "requests": [
+{
+  "id": "0",
+ "observations": [
+{
+  "id": "0",
+  "reward": "43",
+  "satellateId": "0",
+  "startTime": "190",
+  "endTime": "202"
+},
+{
+  "id": "1",
+  "reward": "16",
+  "satellateId": "1",
+  "startTime": "155",
+  "endTime": "167"
+},
+],
+},
+],
+},
+],
+}
